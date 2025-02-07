@@ -53,7 +53,7 @@ function validateTaskCompletion() {
     if (checkedCount === 5) {
       resolve("Congrats, You have selected exactly 5 tasks!");
     } else if (checkedCount > 5) {
-      reject("You have selected more than 5 tasks! Please uncheck some tasks.");
+      reject(" Selected more than 5 tasks! ");
     }
   });
   x.then((message) => {
