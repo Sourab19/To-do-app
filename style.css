@@ -1,0 +1,56 @@
+.navbar-nav .nav-item {
+  transition: 0.5s background-color ease;
+}
+
+.navbar-nav .nav-item:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+.todo-icon {
+  font-family: "Pacifico", cursive;
+  font-size: 24px;
+}
+
+.todo-icon1 {
+  font-family: "Pacifico", cursive;
+  font-size: 45px;
+}
+.todo-icon2 {
+  font-family: "Pacifico", cursive;
+  font-size: 30px;
+}
+.color1 {
+  background-color: #d18521;
+}
+footer {
+  bottom: 0;
+  width: 100%;
+  position: fixed;
+}
+body {
+  background-color: wheat;
+}
+
+.content-container {
+  background-color: white;
+  padding: 10px; /* Further reduce padding */
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 10px;
+  border-radius: 8px; /* Minimal rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08); /* Subtle shadow */
+}
+.content-container3 {
+  background-color: #d18521;
+  padding: 10px; /* Further reduce padding */
+  margin-top: 50px;
+  margin-bottom: 30px;
+
+  border-radius: 8px; /* Minimal rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08); /* Subtle shadow */
+}
+.loginbox {
+  margin-top: 70px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
